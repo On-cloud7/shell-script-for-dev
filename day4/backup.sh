@@ -11,7 +11,7 @@ readme
 
 
 function display_usage {
-	echo "usage:                                                                      ./backup.sh <path to your source> <path to backup folder> "
+	echo "usage:./backup.sh <path to your source> <path to backup folder> "
 }
 
 if [ $# -eq 0 ]; then
